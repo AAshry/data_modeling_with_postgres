@@ -32,15 +32,13 @@ At the terminal:
 
 Using the song and log datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
 
+![Database Schema](https://github.com/AAshry/data_modeling_with_postgres/blob/main/Database_Schema.png)
+
 ### Fact Table
 
 1.  **songplays**  - records in log data associated with song plays i.e. records with page  `NextSong`
     -   _songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent_
 ### Dimension Tables
-
-
-![Database Schema](https://github.com/AAshry/data_modeling_with_postgres/blob/main/Database_Schema.png)
-
 
 2.  **users**  - users in the app
     -   _user_id, first_name, last_name, gender, level_
