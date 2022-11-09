@@ -39,7 +39,7 @@ Using the song and log datasets, you'll need to create a star schema optimized f
 ### Dimension Tables
 
 ```
-![Database Schema](Database_Schema.png)
+![Database Schema](https://github.com/AAshry/data_modeling_with_postgres/blob/main/Database_Schema.png)
 ```
 
 2.  **users**  - users in the app
