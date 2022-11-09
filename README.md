@@ -38,9 +38,9 @@ Using the song and log datasets, you'll need to create a star schema optimized f
     -   _songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent_
 ### Dimension Tables
 
-```
+
 ![Database Schema](https://github.com/AAshry/data_modeling_with_postgres/blob/main/Database_Schema.png)
-```
+
 
 2.  **users**  - users in the app
     -   _user_id, first_name, last_name, gender, level_
